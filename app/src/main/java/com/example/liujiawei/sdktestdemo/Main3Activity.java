@@ -48,4 +48,9 @@ public class Main3Activity extends AppCompatActivity {
         super.onDestroy();
         EventBus.getDefault().unregister(this);
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
 }
