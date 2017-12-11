@@ -40,6 +40,7 @@ public class Main3Activity extends AppCompatActivity {
     @Subscribe(sticky = true)
     public  void onEvent(EventBus_demo eventBus_demo){
         text.setText(eventBus_demo.getAge()+eventBus_demo.getName());
+
     }
 
     @Override
