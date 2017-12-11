@@ -25,6 +25,8 @@ public class Main3Activity extends AppCompatActivity {
             public void onClick(View v) {
                 EventBus.getDefault().post(new EventBus_demo(222,"ERRR"));
                 finish();
+
+
             }
         });
     }
